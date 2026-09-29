@@ -1,0 +1,14 @@
+[project]
+name = "tcp-state-machine"
+version = "0.1.0"
+description = "Track a TCP connection through SYN, ESTABLISHED, FIN-WAIT, and TIME-WAIT states driven by a sequence of sent and received segment events."
+requires-python = ">=3.10"
+dependencies = []
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
