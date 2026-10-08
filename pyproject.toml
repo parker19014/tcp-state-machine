@@ -1,6 +1,6 @@
 [project]
 name = "tcp-state-machine"
-version = "0.1.1"
+version = "0.1.2"
 description = "Track a TCP connection through SYN, ESTABLISHED, FIN-WAIT, and TIME-WAIT states driven by a sequence of sent and received segment events."
 requires-python = ">=3.10"
 dependencies = []
